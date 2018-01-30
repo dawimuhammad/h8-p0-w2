@@ -56,9 +56,10 @@ SET LaundryMachine to "On"
 
 4. Check Nails
 
-SET JumlahMurid to 40
+SET JumlahMurid to 0
 SET Nails with any values
 
+READ JumlahMurid
 FOR JumlahMurid less than 41
    DO
 	IF Nails equals to "long"
@@ -66,4 +67,7 @@ FOR JumlahMurid less than 41
 	ELSE
 		DISPLAY "Kamu Ibu Guru hukum ya!"
 
+INCREMENT JumlahMurid
+
+ENDFOR
 
