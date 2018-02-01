@@ -1,3 +1,4 @@
+// ASSIGNMENT IF CASE
 //input variabel
 var nama = 'Ana';
 var peran = 'Penyihir';

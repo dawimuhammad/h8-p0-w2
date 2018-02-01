@@ -1,3 +1,4 @@
+// Assignment SWITCH CASE
 //deklarasi variabel input
 var tanggal = 17;
 var bulan = 8;
