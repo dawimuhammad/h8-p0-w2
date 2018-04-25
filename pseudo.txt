@@ -1,0 +1,58 @@
+1. Newton Second Law
+
+PSEUDO
+
+STORE 'resultanGaya' with any value
+STORE 'massaBenda' with any value
+STORE 'percepatan' with any value
+
+CALCULATE 'massaBenda' multiple with 'percepatan'
+SET 'resultanGaya' with the result of calculation
+
+DISPLAY 'resultanGaya'
+
+------------------------------------ == ------------------------------------
+
+2. Tahun Kabisat
+
+PSEUDO
+
+STORE 'tahun' with any value
+STORE 'divide-four'
+STORE 'divide-four-hundred'
+
+CALCULATE 'tahun' MOD 4
+SET 'divide-four' with the result of calculation
+CALCULATE 'tahun' MOD 100
+SET 'divide-hundred' with the result of calculation
+CALCULATE 'tahun' MOD 400
+SET 'divide-four-hundred' with the result of calculation
+IF 'divide-four' equals to 0
+  IF 'divide-hundred' not equals to 0
+    DISPLAY "Tahun Kabisat"
+  ELSE IF 'divide-hundred' equals to 0
+    IF 'divide-four-hundred' equals to 0
+      DISPLAY "Tahun Kabisat"
+ELSE
+  DISPLAY "BUKAN TAHUN KABISAT"
+
+------------------------------------ == ------------------------------------
+
+3. Laundry Day
+
+PSEUDO
+
+STORE 'countClothes' with 0
+STORE 'maxLaundry' with 20
+
+WHILE 'countClothes' is LESS OR EQUALS to 'maxLaundry'
+  CALCULATE 'countClothes' with 1
+  SET 'countClothes' with the result of calculatuion
+
+DO 'Laundry Machine Start'
+
+------------------------------------ == ------------------------------------
+
+4. Periksa Kuku
+
+PSEUDO
