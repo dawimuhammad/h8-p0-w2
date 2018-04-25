@@ -2,9 +2,9 @@
 
 PSEUDO
 
-STORE 'resultanGaya' with any value
-STORE 'massaBenda' with any value
-STORE 'percepatan' with any value
+SET 'resultanGaya' with any value
+SET 'massaBenda' with any value
+SET 'percepatan' with any value
 
 CALCULATE 'massaBenda' multiple with 'percepatan'
 SET 'resultanGaya' with the result of calculation
@@ -17,9 +17,9 @@ DISPLAY 'resultanGaya'
 
 PSEUDO
 
-STORE 'tahun' with any value
-STORE 'divide-four'
-STORE 'divide-four-hundred'
+SET 'tahun' with any value
+SET 'divide-four'
+SET 'divide-four-hundred'
 
 CALCULATE 'tahun' MOD 4
 SET 'divide-four' with the result of calculation
@@ -42,10 +42,11 @@ ELSE
 
 PSEUDO
 
-STORE 'countClothes' with 0
-STORE 'maxLaundry' with 20
+SET 'countClothes' with 0
+SET 'maxLaundry' with 20
 
 WHILE 'countClothes' is LESS OR EQUALS to 'maxLaundry'
+  DO
   CALCULATE 'countClothes' with 1
   SET 'countClothes' with the result of calculatuion
 
@@ -56,3 +57,14 @@ DO 'Laundry Machine Start'
 4. Periksa Kuku
 
 PSEUDO
+
+SET 'studentNumber' with 40
+SET 'i' with 0
+SET 'studentNails' with any value
+
+WHILE 'i' is LESS OR EQUALS to 'studentNumber'
+  DO
+  IF 'studentNails' equals to 'panjang'
+    DO 'Punish Student'
+  ELSE IF 'studentNails' equals to 'rapih'
+    DO 'Praise Student'
