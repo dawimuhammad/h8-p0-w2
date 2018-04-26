@@ -4,6 +4,7 @@
 var nama = 'Haddawi';
 var peran = 'ksatria';
 
+// func
 if (nama !== '') {
     if (peran !== '') {
         console.log('Selamat datang di dunia Proxytia, '+nama);
